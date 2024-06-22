@@ -1,19 +1,24 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Docs
+description: Build using the Starlight template
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Explore our comprehensive documentation for multiple projects!
   image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-      variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    file: ../../assets/header_logo.svg
+#   actions:
+#     - text: Moodle Mate
+#       link: /guides/moodle-mate/
+#       icon: right-arrow
+#       variant: primary
+#     - text: Project Orion
+#       link: /guides/project-orion/
+#       icon: right-arrow
+#       variant: primary
+#     - text: Project Gemini
+#       link: /guides/project-gemini/
+#       icon: right-arrow
+#       variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -21,7 +26,7 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
+	{/* <Card title="Update content" icon="pencil">
 		Edit `src/content/docs/index.mdx` to see this page change.
 	</Card>
 	<Card title="Add new content" icon="add-document">
@@ -29,8 +34,14 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 	</Card>
 	<Card title="Configure your site" icon="setting">
 		Edit your `sidebar` and other config in `astro.config.mjs`.
+	</Card> */}
+	<Card title="Explore Moodle Mate" icon="open-book">
+		Learn more in [the Moodle Mate Guide](/guides/moodle-mate/).
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="lorem ipsum" icon="rocket">
+		Dive into [Project Orion Documentation](/guides/moodle-mate/).
+	</Card>
+	<Card title="lorem ipsum" icon="right-arrow">
+		Uncover [Project Gemini Insights](/guides/moodle-mate/).
 	</Card>
 </CardGrid>
