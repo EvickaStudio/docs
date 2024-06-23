@@ -5,20 +5,20 @@ template: splash
 hero:
   tagline: Explore our comprehensive documentation for multiple projects!
   image:
-    file: ../../assets/header_logo.svg
-#   actions:
-#     - text: Moodle Mate
-#       link: /guides/moodle-mate/
-#       icon: right-arrow
-#       variant: primary
-#     - text: Project Orion
-#       link: /guides/project-orion/
-#       icon: right-arrow
-#       variant: primary
-#     - text: Project Gemini
-#       link: /guides/project-gemini/
-#       icon: right-arrow
-#       variant: primary
+    file: ../../assets/render.webp
+  actions:
+    - text: Moodle Mate
+      link: /guides/moodle-mate/
+      icon: right-arrow
+      variant: primary
+    - text: Project Orion
+      link: /guides/moodle-mate/
+      icon: right-arrow
+      variant: primary
+    - text: Project Gemini
+      link: /guides/moodle-mate/
+      icon: right-arrow
+      variant: primary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -26,22 +26,22 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Next steps
 
 <CardGrid stagger>
-	{/* <Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card> */}
-	<Card title="Explore Moodle Mate" icon="open-book">
-		Learn more in [the Moodle Mate Guide](/guides/moodle-mate/).
-	</Card>
-	<Card title="lorem ipsum" icon="rocket">
-		Dive into [Project Orion Documentation](/guides/moodle-mate/).
-	</Card>
-	<Card title="lorem ipsum" icon="right-arrow">
-		Uncover [Project Gemini Insights](/guides/moodle-mate/).
-	</Card>
+  <Card title="Explore Moodle Mate" icon="open-book">
+    Learn more in [the Moodle Mate Guide](/guides/moodle-mate/).
+  </Card>
+  <Card title="Project Orion" icon="rocket">
+    Dive into [Project Orion Documentation](/guides/project-orion/).
+  </Card>
+  <Card title="Project Gemini" icon="right-arrow">
+    Uncover [Project Gemini Insights](/guides/moodle-mate/).
+  </Card>
+  {/* <Card title="Update content" icon="pencil">
+    Edit `src/content/docs/index.mdx` to see this page change.
+  </Card>
+  <Card title="Add new content" icon="add-document">
+    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  </Card>
+  <Card title="Configure your site" icon="setting">
+    Edit your `sidebar` and other config in `astro.config.mjs`.
+  </Card> */}
 </CardGrid>
