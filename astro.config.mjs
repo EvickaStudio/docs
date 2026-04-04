@@ -18,9 +18,13 @@ export default defineConfig({
                 dark: '/src/assets/logo-dark.svg',
                 replacesTitle: true,
             },
-            social: {
-                github: 'https://github.com/EvickaStudio',
-            },
+            social: [
+                {
+                    icon: 'github',
+                    label: 'GitHub',
+                    href: 'https://github.com/EvickaStudio',
+                },
+            ],
             customCss: process.env.NO_GRADIENTS ? [] : ['./src/assets/landing.css'],
 
             sidebar: [
