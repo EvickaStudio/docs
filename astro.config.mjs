@@ -36,10 +36,14 @@ export default defineConfig({
                 },
                 {
                     label: 'Reference',
-                    autogenerate: { 
-                        directory: 'reference',
-                        order: ['installing', 'configuration', 'usage', 'troubleshooting']
-                    }
+                    items: [
+                        {
+                            autogenerate: { 
+                                directory: 'reference',
+                                order: ['installing', 'configuration', 'usage', 'troubleshooting']
+                            }
+                        }
+                    ]
                 },
             ],
         }),
